@@ -15,10 +15,10 @@ Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	3516c974771f615c82c9fb4f0562d479
 URL:		http://pear.php.net/package/PHP_Archive/
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
-Requires:	php-pear >= 4:1.0-7
 Requires:	php-common >= 4:5.1.0
+Requires:	php-pear >= 4:1.0-7
 Requires:	php-pear-Archive_Tar >= 1.3.1
-Requires:	php-pear-PEAR >= 1:1.3.5
+Requires:	php-pear-PEAR-core >= 1:1.3.5
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -32,8 +32,8 @@ entire application.
 In PEAR status of this package is: %{_status}.
 
 %description -l pl
-PHP_Archive pozwala na tworzenie pojedynczych plików .phar zawierajacych
-ca³e aplikacje.
+PHP_Archive pozwala na tworzenie pojedynczych plików .phar
+zawierajacych ca³e aplikacje.
 
 Ta klasa ma w PEAR status: %{_status}.
 
