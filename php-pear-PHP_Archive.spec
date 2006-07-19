@@ -7,12 +7,12 @@
 Summary:	%{_pearname} - create and use PHP Archive files
 Summary(pl):	%{_pearname} - tworzenie i wykorzystanie archiwów PHP
 Name:		php-pear-%{_pearname}
-Version:	0.6.1
-Release:	2
+Version:	0.8.0
+Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	3516c974771f615c82c9fb4f0562d479
+# Source0-md5:	78373586feece067d24028c8c57472cb
 URL:		http://pear.php.net/package/PHP_Archive/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
