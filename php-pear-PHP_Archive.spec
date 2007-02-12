@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - create and use PHP Archive files
-Summary(pl):	%{_pearname} - tworzenie i wykorzystanie archiwÛw PHP
+Summary(pl.UTF-8):   %{_pearname} - tworzenie i wykorzystanie archiw√≥w PHP
 Name:		php-pear-%{_pearname}
 Version:	0.9.0
 Release:	1
@@ -33,15 +33,15 @@ entire application.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-PHP_Archive pozwala na tworzenie pojedynczych plikÛw .phar
-zawierajacych ca≥e aplikacje.
+%description -l pl.UTF-8
+PHP_Archive pozwala na tworzenie pojedynczych plik√≥w .phar
+zawierajacych ca≈Çe aplikacje.
 
 Ta klasa ma w PEAR status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl):	Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{version}-%{release}
 AutoReq:	no
@@ -50,7 +50,7 @@ AutoProv:	no
 %description tests
 Tests for PEAR::%{_pearname}.
 
-%description tests -l pl
+%description tests -l pl.UTF-8
 Testy dla PEAR::%{_pearname}.
 
 %prep
