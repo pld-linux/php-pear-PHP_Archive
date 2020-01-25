@@ -1,6 +1,5 @@
 %define		_status		alpha
 %define		_pearname PHP_Archive
-%include	/usr/lib/rpm/macros.php
 Summary:	%{_pearname} - create and use PHP Archive files
 Summary(pl.UTF-8):	%{_pearname} - tworzenie i wykorzystanie archiwów PHP
 Name:		php-pear-%{_pearname}
